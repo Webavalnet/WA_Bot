@@ -219,7 +219,7 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "plugins"
     },
     sudo_users = {174003344,178607260,155933792,85831686,134177004,141605513},--Sudo users
     disabled_channels = {},
