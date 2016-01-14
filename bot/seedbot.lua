@@ -224,7 +224,7 @@ function create_config( )
     sudo_users = {174003344,178607260,155933792,85831686,134177004,141605513},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [Telenymous v1
+    about_text = [[Telenymous v1
 An advance Administration bot based on yagop/telegram-bot 
 
 Admins
