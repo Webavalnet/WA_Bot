@@ -72,7 +72,6 @@ local function bot_stats()
   local redis_scan = [[
     local cursor = '0'
     local count = 0
-
     repeat
       local r = redis.call("SCAN", cursor, "MATCH", KEYS[1])
       cursor = r[1]
@@ -141,8 +140,8 @@ return {
     "^[!/]([Ss]tats)$",
     "^[!/]([Ss]tatslist)$",
     "^[!/]([Ss]tats) (group) (%d+)",
-    "^[!/]([Ss]tats) (telenymous)",-- Put everything you like :)
-		"^[!/]([Tt]elenymous)"-- Put everything you like :)
+    "^[!/]([Ss]tats) (teleseed)",-- Put everything you like :)
+		"^[!/]([Tt]eleseed)"-- Put everything you like :)
     }, 
   run = run
 }
